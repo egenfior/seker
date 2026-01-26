@@ -7,22 +7,22 @@ env:
 phases:
   pre_build:
     commands:
-      - echo "Starting web build"
-      - echo "AWS Region: $AWS_REGION"
-      - echo "ECR Repo: $ECR_REPO"
-      - aws --version
-      - docker --version
-      - echo "Logging in to Amazon ECR..."
-      - aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "${ECR_REPO%/*}"
+      - "echo Starting web build"
+      - "echo AWS Region: $AWS_REGION"
+      - "echo ECR Repo: $ECR_REPO"
+      - "aws --version"
+      - "docker --version"
+      - "echo Logging in to Amazon ECR..."
+      - "aws ecr get-login-password --region \"$AWS_REGION\" | docker login --username AWS --password-stdin \"${ECR_REPO%/*}\""
 
   build:
     commands:
-      - echo "Building Next.js web Docker image..."
-      - docker build -t seker-web -f apps/web/Dockerfile .
-      - docker tag seker-web:latest "$ECR_REPO:$IMAGE_TAG"
+      - "echo Building Next.js web Docker image..."
+      - "docker build -t seker-web -f apps/web/Dockerfile ."
+      - "docker tag seker-web:latest \"$ECR_REPO:$IMAGE_TAG\""
 
   post_build:
     commands:
-      - echo "Pushing Docker image to ECR..."
-      - docker push "$ECR_REPO:$IMAGE_TAG"
-      - echo "Pushed: $ECR_REPO:$IMAGE_TAG"
+      - "echo Pushing Docker image to ECR..."
+      - "docker push \"$ECR_REPO:$IMAGE_TAG\""
+      - "echo Pushed: $ECR_REPO:$IMAGE_TAG"
