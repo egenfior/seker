@@ -1,0 +1,32 @@
+version: 0.2
+
+env:
+  variables:
+    IMAGE_TAG: "latest"
+    # These must be set in CodeBuild environment variables:
+    # AWS_REGION=us-west-1
+    # ECR_REPO=490866676237.dkr.ecr.us-west-1.amazonaws.com/seker-web
+
+phases:
+  pre_build:
+    commands:
+      - echo "Starting web build"
+      - echo "AWS Region: $AWS_REGION"
+      - echo "ECR Repo: $ECR_REPO"
+      - aws --version
+      - docker --version
+      - echo "Logging in to Amazon ECR..."
+      - aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "${ECR_REPO%/*}"
+
+  build:
+    commands:
+      - echo "Building Next.js web Docker image..."
+      - docker build -t seker-web -f apps/web/Dockerfile .
+      - docker tag seker-web:latest "$ECR_REPO:$IMAGE_TAG"
+
+  post_build:
+    commands:
+      - echo "Pushing Docker image to ECR..."
+      - docker push "$ECR_REPO:$IMAGE_TAG"
+      - echo "Web image successfully pushed:"
+      - echo "$ECR_REPO:$IMAGE_TAG"
