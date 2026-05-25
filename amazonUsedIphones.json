@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "asin": "B0MCKGH001",
+      "title": "Apple iPhone 13, 128GB, Midnight - Unlocked (Renewed)",
+      "url": "https://www.amazon.com/s?k=iPhone+13+128GB+Renewed",
+      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._AC_SX679_.jpg",
+      "price": 354.99,
+      "condition": "Renewed - Excellent",
+      "merchant": "Amazon Renewed",
+      "isAmazonFulfilled": true
+    },
+    {
+      "asin": "B0MCKGH002",
+      "title": "Apple iPhone 12 Pro, 256GB, Pacific Blue - Unlocked (Renewed)",
+      "url": "https://www.amazon.com/s?k=iPhone+12+Pro+256GB+Renewed",
+      "image": "https://m.media-amazon.com/images/I/71MHTD3uL4L._AC_SX679_.jpg",
+      "price": 389.5,
+      "condition": "Renewed - Good",
+      "merchant": "Mobile Supply Co.",
+      "isAmazonFulfilled": true
+    },
+    {
+      "asin": "B0MCKGH003",
+      "title": "Apple iPhone 14, 128GB, Blue - Unlocked (Renewed)",
+      "url": "https://www.amazon.com/s?k=iPhone+14+128GB+Renewed",
+      "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg",
+      "price": 469.0,
+      "condition": "Renewed - Excellent",
+      "merchant": "Certified Renewed Store",
+      "isAmazonFulfilled": false
+    },
+    {
+      "asin": "B0MCKGH004",
+      "title": "Apple iPhone 11, 64GB, Black - Unlocked (Used)",
+      "url": "https://www.amazon.com/s?k=iPhone+11+64GB+Used",
+      "image": "https://m.media-amazon.com/images/I/71i2XhHU3pL._AC_SX679_.jpg",
+      "price": 224.99,
+      "condition": "Used - Very Good",
+      "merchant": "Northstar Wireless",
+      "isAmazonFulfilled": true
+    },
+    {
+      "asin": "B0MCKGH005",
+      "title": "Apple iPhone 13 Pro Max, 256GB, Sierra Blue - Unlocked (Renewed)",
+      "url": "https://www.amazon.com/s?k=iPhone+13+Pro+Max+256GB+Renewed",
+      "image": "https://m.media-amazon.com/images/I/61i8Vjb17SL._AC_SX679_.jpg",
+      "price": 649.99,
+      "condition": "Renewed - Excellent",
+      "merchant": "Amazon Renewed",
+      "isAmazonFulfilled": true
+    },
+    {
+      "asin": "B0MCKGH006",
+      "title": "Apple iPhone SE 3rd Gen, 64GB, Starlight - Unlocked (Renewed)",
+      "url": "https://www.amazon.com/s?k=iPhone+SE+3rd+Gen+64GB+Renewed",
+      "image": "https://m.media-amazon.com/images/I/61TOWf11+jL._AC_SX679_.jpg",
+      "price": 179.99,
+      "condition": "Renewed - Good",
+      "merchant": "Value Phones Direct",
+      "isAmazonFulfilled": false
+    },
+    {
+      "asin": "B0MCKGH007",
+      "title": "Apple Watch Series 8 GPS, 45mm Midnight Aluminum Case - Renewed",
+      "url": "https://www.amazon.com/s?k=Apple+Watch+Series+8+45mm+Renewed",
+      "image": "https://m.media-amazon.com/images/I/71ulah9iIwL._AC_SX679_.jpg",
+      "price": 219.99,
+      "condition": "Renewed - Excellent",
+      "merchant": "Amazon Renewed",
+      "isAmazonFulfilled": true
+    },
+    {
+      "asin": "B0MCKGH008",
+      "title": "Apple Watch SE 2nd Gen GPS, 40mm Starlight Aluminum Case - Renewed",
+      "url": "https://www.amazon.com/s?k=Apple+Watch+SE+2nd+Gen+40mm+Renewed",
+      "image": "https://m.media-amazon.com/images/I/61BlJ+0ktBL._AC_SX679_.jpg",
+      "price": 169.99,
+      "condition": "Renewed - Good",
+      "merchant": "Certified Renewed Store",
+      "isAmazonFulfilled": true
+    },
+    {
+      "asin": "B0MCKGH009",
+      "title": "Apple Watch Ultra GPS + Cellular, 49mm Titanium Case - Renewed",
+      "url": "https://www.amazon.com/s?k=Apple+Watch+Ultra+49mm+Renewed",
+      "image": "https://m.media-amazon.com/images/I/81I7W+WY2ML._AC_SX679_.jpg",
+      "price": 479.99,
+      "condition": "Renewed - Excellent",
+      "merchant": "Premium Device Resale",
+      "isAmazonFulfilled": false
+    }
+  ]
+}
